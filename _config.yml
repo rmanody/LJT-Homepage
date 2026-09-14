@@ -1,24 +1,172 @@
-# Site settings
-title: Junteng Liu
-email: jliugi@connect.ust.hk
-description: >-
-  Personal academic homepage of Junteng Liu, first-year PhD candidate at HKUST NLP Group.
-baseurl: ""
-url: "https://rmanody.github.io/LJT-Homepage"
-logo: /assets/images/headshot.jpg
-github_username: Vicent0205
-scholar_userid: tbK9jl4AAAAJ
-twitter_username: junteng88716710
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
-# Build settings
+# Basic Site Settings
+locale                   : "en-US"
+site_theme               : "default"
+title                    : "Junteng Liu"
+title_separator          : "-"
+name                     : &name "Junteng Liu"
+description              : &description "Junteng Liu's academic portfolio"
+url                      : https://rmanody.github.io
+baseurl                  : "/LJT-Homepage"
+repository               : "rmanody/LJT-Homepage"
+
+# Site Author
+author:
+  avatar           : "profile.png"
+  name             : "Junteng Liu"
+  pronouns         :
+  bio              : "First-year PhD candidate at HKUST NLP Group. Researching NLP, machine learning, LLM reasoning, hallucination, and interpretability."
+  location         : "Hong Kong"
+  employer         : "Hong Kong University of Science and Technology"
+  uri              :
+  email            : "jliugi@connect.ust.hk"
+  academia         :
+  arxiv            :
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
+  inspire-hep      :
+  impactstory      :
+  orcid            :
+  semantic         :
+  ssrn             :
+  pubmed           :
+  researchgate     :
+  scopus           :
+  zotero           :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  github           : "Vicent0205"
+  kaggle           :
+  stackoverflow    :
+  artstation       :
+  bluesky          :
+  facebook         :
+  flickr           :
+  foursquare       :
+  goodreads        :
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         :
+  mastodon         :
+  medium           :
+  pinterest        :
+  soundcloud       :
+  steam            :
+  telegram         :
+  tumblr           :
+  twitter          : "junteng88716710"
+  vine             :
+  weibo            :
+  wikipedia        :
+  xing             :
+  youtube          :
+  zhihu            :
+
+# Publication Category
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'
+  conferences:
+    title: 'Conference Papers'
+
+# Site Settings
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
+comments:
+  provider               :
+  disqus:
+    shortname            :
+  discourse:
+    server               :
+    category_id          :
+  facebook:
+    appid                :
+    comment_count        :
+    comment_order_by     :
+  google:
+    enabled              :
+  isso:
+    shortname            :
+  staticman:
+    branch               :
+    endpoint             :
+
+# SEO Related
+google_site_verification :
+action_site_verification :
+
+# Social Sharing
+twitter:
+  username             : "junteng88716710"
+  card:
+    enabled             : true
+    default_image       : "assets/images/default-og-image.png"
+facebook:
+  username             :
+  publisher            :
+  app_id               :
+  admins               :
+
+# Site Owner Defaults
+excerpts:
+  provider               :
+  # This will be truncated to 140 words by default in the templates.
+  # To disable, use zero here.
+  default                : true
+
+# Build Settings
 markdown: kramdown
-permalink: /:title/
+highlighter: rouge
+permalink: /:path/
 paginate: 5
-paginate_path: "/blog/page:num/"
+paginate_path: "/page:num/"
 
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
+
+# Exclude from processing.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  toc_levels: 1..6
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+
+# Sass/SCSS Output Style
+sass:
+  style: compressed
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
