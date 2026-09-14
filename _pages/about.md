@@ -17,6 +17,23 @@ My research focuses on natural language processing and machine learning. I am es
 - Natural Language Processing
 - Machine Learning
 
+## Selected Publications
+
+- **C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models**  
+  NeurIPS 2023 \| [Publication page](/publications/2023-01-01-ceval)
+- **Composing Parameter-Efficient Modules with Arithmetic Operations**  
+  NeurIPS 2023 \| [Publication page](/publications/2023-01-02-pe-modules)
+- **The Truthfulness Hyperplane of Large Language Models**  
+  ICLR 2024 \| [Publication page](/publications/2024-01-01-truthfulness-hyperplane)
+- **In-Context Learning Sharpness and Generalization**  
+  ICML 2024 \| [Publication page](/publications/2024-01-02-incontext-sharpness)
+- **SynLogic: Syntactic Constraints for Reliable LLM Reasoning**  
+  ACL 2025 \| [Publication page](/publications/2025-01-01-synlogic)
+- **Hallucination Detection for Chart Understanding in Vision-Language Models**  
+  CVPR 2025 \| [Publication page](/publications/2025-01-02-vlm-chart)
+
+See the full [publications page](/publications/) for the complete list.
+
 ## Skills
 
 - **Languages:** Python
