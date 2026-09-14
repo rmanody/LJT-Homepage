@@ -1,36 +1,31 @@
 ---
 layout: single
-title: "Junteng Liu"
+title: "About"
 permalink: /
 author_profile: true
 ---
 
-I am a first-year PhD candidate at the HKUST NLP Group, advised by Professor Junxian He. I graduated from Shanghai Jiao Tong University (SJTU) in June 2024.
+I am a first-year PhD candidate at the [HKUST NLP Group](https://hkust-nlp.github.io/), supervised by Professor Junxian He. I graduated from Shanghai Jiao Tong University (SJTU) in June 2024, where I also received undergraduate research guidance from Professor Junxian He.
 
-My research focuses on natural language processing and machine learning, with specific interests in:
+My research focuses on natural language processing and machine learning. I am especially interested in large language model reasoning and reinforcement learning, hallucination in vision-language models, and LLM truthfulness and interpretability.
 
-- LLM Reasoning and Reinforcement Learning
-- Hallucination in Vision-Language Models (VLM)
+## Research Interests
+
+- Large Language Model Reasoning and Reinforcement Learning
+- Hallucination in Vision-Language Models (VLMs)
 - LLM Truthfulness and Interpretability
+- Natural Language Processing
+- Machine Learning
 
-## Education
+## Skills
 
-- Ph.D. in Computer Science (2024–Present), Hong Kong University of Science and Technology
-- B.Eng. (2020–2024), Shanghai Jiao Tong University
-
-## Experience
-
-- Research Intern, MINIMAX (February 2025–Present)
-- Research Intern, Tencent WXG (June 2024–September 2024)
-- Research Intern, Shanghai AI Lab (June 2023–December 2023)
-
-## Awards
-
-- Zhiyuan Honor Scholarship, Shanghai Jiao Tong University
+- **Languages:** Python
+- **Research areas:** LLM reasoning, RL for language models, VLM hallucination, model evaluation, interpretability
+- **Tooling:** PyTorch, Hugging Face libraries, Jekyll/GitHub Pages workflows
 
 ## Contact
 
-- Email: jliugi@connect.ust.hk
+- Email: [jliugi@connect.ust.hk](mailto:jliugi@connect.ust.hk)
 - GitHub: [Vicent0205](https://github.com/Vicent0205)
 - Google Scholar: [Profile](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate)
 - X / Twitter: [@junteng88716710](https://x.com/junteng88716710)
