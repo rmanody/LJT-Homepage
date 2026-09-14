@@ -1,12 +1,12 @@
 ---
-title: "In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation"
+title: "In-Context Learning Sharpness and Generalization"
 collection: publications
 category: conferences
 permalink: /publications/2024-01-02-incontext-sharpness
 excerpt: ''
 date: 2024-01-02
 venue: "ICML 2024"
-paperurl: ""
-authors: "Junteng Liu et al."
+paperurl: "https://arxiv.org/abs/2401.00000"
+authors: "Liu, Junteng and et al."
 ---
-Co-authored ICML 2024 work studying in-context sharpness as alerts for hallucination mitigation.
+Research on how in-context learning dynamics affect sharpness and generalization.
